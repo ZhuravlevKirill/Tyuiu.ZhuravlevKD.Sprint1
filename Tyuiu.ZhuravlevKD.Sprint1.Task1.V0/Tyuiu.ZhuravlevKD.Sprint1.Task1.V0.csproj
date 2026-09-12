@@ -5,13 +5,14 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{A2263CCD-1677-46D8-AF88-5A41CEB13613}</ProjectGuid>
-        <OutputType>Library</OutputType>
+        <ProjectGuid>{5313795D-2A86-4087-AF5E-F577BAC26E24}</ProjectGuid>
+        <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>Tyuiu.ZhuravlevKD.Sprint1.Task1.V0.Lib</RootNamespace>
-        <AssemblyName>Tyuiu.ZhuravlevKD.Sprint1.Task1.V0.Lib</AssemblyName>
-        <TargetFrameworkVersion>net8.0</TargetFrameworkVersion>
+        <RootNamespace>Tyuiu.ZhuravlevKD.Sprint1.Task1.V0</RootNamespace>
+        <AssemblyName>Tyuiu.ZhuravlevKD.Sprint1.Task1.V0</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
+        <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>
@@ -39,7 +40,7 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="DataService.cs" />
+        <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
