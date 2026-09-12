@@ -1,0 +1,10 @@
+# Rider / JetBrains
+.idea/
+**/.idea/
+
+# NuGet packages
+packages/
+
+# Build
+bin/
+obj/
