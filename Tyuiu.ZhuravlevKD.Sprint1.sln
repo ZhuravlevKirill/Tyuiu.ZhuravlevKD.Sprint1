@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{97F86F46-EAF2-4592-82DE-82C5010CBE9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.ZhuravlevKD.Sprint1.Task0.V0", "Tyuiu.ZhuravlevKD.Sprint1.Task0.V0\Tyuiu.ZhuravlevKD.Sprint1.Task0.V0.csproj", "{5DB3F301-B6BB-44B7-B10D-2C676ACD3DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.ZhuravlevKD.Sprint1.Task0.V0.Lib", "Tyuiu.ZhuravlevKD.Sprint1.Task0.V0.Lib\Tyuiu.ZhuravlevKD.Sprint1.Task0.V0.Lib.csproj", "{0FA7A78E-CE6C-4FDE-ACAC-1CA990A900E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.ZhuravlevKD.Sprint1.Task0.V0.Test", "Tyuiu.ZhuravlevKD.Sprint1.Task0.V0.Test\Tyuiu.ZhuravlevKD.Sprint1.Task0.V0.Test.csproj", "{AF168280-7BAA-465B-B250-712047293BCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5DB3F301-B6BB-44B7-B10D-2C676ACD3DB0} = {97F86F46-EAF2-4592-82DE-82C5010CBE9B}
+		{0FA7A78E-CE6C-4FDE-ACAC-1CA990A900E1} = {97F86F46-EAF2-4592-82DE-82C5010CBE9B}
+		{AF168280-7BAA-465B-B250-712047293BCF} = {97F86F46-EAF2-4592-82DE-82C5010CBE9B}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DB3F301-B6BB-44B7-B10D-2C676ACD3DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB3F301-B6BB-44B7-B10D-2C676ACD3DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB3F301-B6BB-44B7-B10D-2C676ACD3DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB3F301-B6BB-44B7-B10D-2C676ACD3DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FA7A78E-CE6C-4FDE-ACAC-1CA990A900E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA7A78E-CE6C-4FDE-ACAC-1CA990A900E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA7A78E-CE6C-4FDE-ACAC-1CA990A900E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA7A78E-CE6C-4FDE-ACAC-1CA990A900E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF168280-7BAA-465B-B250-712047293BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF168280-7BAA-465B-B250-712047293BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF168280-7BAA-465B-B250-712047293BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF168280-7BAA-465B-B250-712047293BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
